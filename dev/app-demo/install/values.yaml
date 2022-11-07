@@ -1,4 +1,4 @@
-# Default values for app-2048.
+# Default values for app-demo.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
@@ -11,8 +11,8 @@ image:
   tag: "latest"
 
 imagePullSecrets: []
-nameOverride: "app-2048"
-fullnameOverride: "app-2048"
+nameOverride: "app-demo"
+fullnameOverride: "app-demo"
 
 serviceAccount:
   # Specifies whether a service account should be created
